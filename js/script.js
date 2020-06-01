@@ -39,7 +39,6 @@ var ground = Bodies.rectangle(window.innerWidth / 2, window.innerHeight - 30, wi
 var box = Bodies.rectangle(window.innerWidth / 2, 200, window.innerWidth, 60);
 
 function test() {
-    alert("");
     World.add(engine.world, [box]);
 }
 World.add(engine.world, [boxA, boxB, ground]);
